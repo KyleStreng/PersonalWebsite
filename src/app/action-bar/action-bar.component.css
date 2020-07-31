@@ -9,7 +9,20 @@ ul > li {
 
 a {
     color: black;
-    margin: 20px;
+    margin: 0px;
     text-decoration: none;
     font-size: 19px;
+}
+
+.button {
+    font-size: 90px;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
 }
