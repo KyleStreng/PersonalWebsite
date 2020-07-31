@@ -8,7 +8,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ActionBarComponent } from './action-bar/action-bar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
-import { ExperienceComponent } from './experience/experience.component';
 import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
@@ -16,7 +15,6 @@ import { ResumeComponent } from './resume/resume.component';
     AppComponent,
     ActionBarComponent,
     HomeComponent,
-    ExperienceComponent,
     ResumeComponent
   ],
   imports: [
