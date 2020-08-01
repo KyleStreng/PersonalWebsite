@@ -6,17 +6,15 @@
 .icon {
   color: black;
   font-size: 36px;
-  /* margin-top: 40px; */
-  
-  padding: 40px;
+  padding: 65px;
 }
 
 img {
-  margin-right: 15%;
+  margin-left: 5%;
   border-radius: 5%;
   height: 30%;
   width: 30%;
-  float: right;
+  /* float: right; */
 }
 
 a:link, a:visited {
@@ -24,10 +22,8 @@ a:link, a:visited {
 }
 
 p {
-  float: left;
+  /* float: left; */
   padding-top: 50px;
   font-size: 16px;
   line-height: 1.6;
 }
-
-
