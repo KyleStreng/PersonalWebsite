@@ -5,17 +5,17 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ActionBarComponent } from './action-bar/action-bar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
+import { SideBarComponent } from './side-bar/side-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ActionBarComponent,
     HomeComponent,
-    ResumeComponent
+    ResumeComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule,

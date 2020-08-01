@@ -1,0 +1,29 @@
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 22%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: black; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 13%;
+}
+
+  /* The navigation menu links */
+.sidenav a {
+  padding-top: 50px;
+  padding-left: 5px;
+  /* padding: 6px 8px 6px 16px; */
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
