@@ -1,6 +1,6 @@
-#experience {
+#education {
     padding-left: 25%;
-    padding-top: 5%;
+    padding-top: 0%;
 }
 
 img {
@@ -9,12 +9,12 @@ img {
     margin-right: 30px;
 }
 
-.job-entry {
+.education-entry {
     width: max-content;
     margin-top: 50px;
 }
 
-.job-text {
+.education-text {
     margin-left: 0%;
     float: right;
 }
